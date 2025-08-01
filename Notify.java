@@ -88,7 +88,7 @@ public static void main(String[] args){
     n.messageadd("hey world 2", "1");
     n.messageadd("hey buddy", "2");
     n.messageadd("message", "3");
-    List<String> result= n.getMessages("2");
+    List<String> result= n.getMessages("3");
     for(String i:result){
         System.out.println(i);
     }
